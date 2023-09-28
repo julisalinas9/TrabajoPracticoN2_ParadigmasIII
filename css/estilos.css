@@ -1,0 +1,55 @@
+.Tituloprincipal{
+    color: rgb(230, 11, 11);
+    background-color: rgb(12, 11, 11);
+ }
+
+ .nav{
+    display: flex;
+ }
+ .TITULOCAMISETA{
+    border:solid black;
+ }
+ .DescripcionTitular{
+    display: flex;
+ }
+ .container-carrusel-ficha_producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .imagen_grande1 {
+    width: 30em;
+  }
+  .imagen_grande2 {
+    width: 30em;
+  }
+ 
+  
+  .imagenesC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagen-item {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .imagen-item:first-child {
+    display: block; 
+  }
